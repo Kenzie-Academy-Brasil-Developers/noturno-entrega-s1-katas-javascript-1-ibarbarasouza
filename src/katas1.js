@@ -1,94 +1,149 @@
 function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
-}
+let meuarray = []
 
-//call function oneThroughTwenty
+
+ for (contador = 1; contador < 21; contador++) {
+  meuarray.push(contador)
+ }
+console.log(meuarray)
+}
+oneThroughTwenty();
+
+
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
-}
+  let meuarray = []
+  let numpares =[]
 
-//call function evensToTwenty
+   for (contador = 1; contador < 21; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 2 == 0){
+     numpares.push(contador)
+   }
+  }
+  console.log(numpares)
+  }
+evensToTwenty();
+
+
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
-}
+  let meuarray = []
+  let numimpares =[]
 
-//call function oddsToTwenty
+   for (contador = 1; contador < 21; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 2 == 1){
+     numimpares.push(contador)
+   }
+  }
+  console.log(numimpares)  
+}
+oddsToTwenty();
+
+
 
 function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let meuarray = []
+  let Mult5 =[]
 
+   for (contador = 1; contador < 101; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 5 == 0){
+     Mult5.push(contador)
+   }
+  }
+  console.log(Mult5)  
 }
+multiplesOfFive();  
 
-//call function multiplesOfFive
-
+ 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
-}
+  let QuadradosPerfeitos =[]
 
-//call function squareNumbers
+   for (contador = 1; contador < 11; contador++) {
+      QuadradosPerfeitos.push(contador ** 2)
+     }
+ console.log(QuadradosPerfeitos)  
+}
+squareNumbers();
+
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+    let meuarray = []
+    
+     for (contador = 1; contador < 21; contador++) {
+       meuarray.push(contador)
+     }
+    meuarray.reverse ();
+    console.log(meuarray)
+    }
+countingBackwards();
 
-//call function countingBackwards
 
 function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+  let meuarray = []
+  let numpares =[]
 
-//call function evenNumbersBackwards
+   for (contador = 1; contador < 21; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 2 == 0){
+     numpares.push(contador)
+   }
+  }
+  numpares.reverse();
+  console.log(numpares)
+}
+evenNumbersBackwards();
+
+
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+  let meuarray = []
+  let numimpares =[]
 
-//call function oddNumbersBackwards
+   for (contador = 1; contador < 21; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 2 == 1){
+     numimpares.push(contador)
+   }
+  }
+  numimpares.reverse();
+  console.log(numimpares) 
+}
+oddNumbersBackwards();
+
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+  let meuarray = []
+  let Mult5 =[]
 
-//call function multiplesOfFiveBackwards
+   for (contador = 1; contador < 101; contador++) {
+     meuarray[contador]= contador
+     if (meuarray[contador] % 5 == 0){
+     Mult5.push(contador)
+   }
+  }
+  Mult5.reverse();
+  console.log(Mult5)
+}
+multiplesOfFiveBackwards();
+
 
 function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
 
-//call function squareNumbersBackwards
+  let QuadradosPerfeitos =[]
+
+   for (contador = 1; contador < 11; contador++) {
+      QuadradosPerfeitos.push(contador ** 2)
+     }
+  QuadradosPerfeitos.reverse()
+ console.log(QuadradosPerfeitos)  
+}
+squareNumbersBackwards();
