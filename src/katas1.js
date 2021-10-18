@@ -1,11 +1,11 @@
 function oneThroughTwenty() {
-let meuarray = []
+let meuArray = []
 
 
  for (contador = 1; contador < 21; contador++) {
-  meuarray.push(contador)
+  meuArray.push(contador)
  }
-console.log(meuarray)
+console.log(meuArray)
 }
 oneThroughTwenty();
 
@@ -13,16 +13,16 @@ oneThroughTwenty();
 
 function evensToTwenty() {
     
-  let meuarray = []
-  let numpares =[]
+  let meuArray = []
+  let numPares =[]
 
    for (contador = 1; contador < 21; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 2 == 0){
-     numpares.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 2 == 0){
+     numPares.push(contador)
    }
   }
-  console.log(numpares)
+  console.log(numPares)
   }
 evensToTwenty();
 
@@ -30,73 +30,73 @@ evensToTwenty();
 
 function oddsToTwenty() {
     
-  let meuarray = []
-  let numimpares =[]
+  let meuArray = []
+  let numImpares =[]
 
    for (contador = 1; contador < 21; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 2 == 1){
-     numimpares.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 2 == 1){
+     numImpares.push(contador)
    }
   }
-  console.log(numimpares)  
+  console.log(numImpares)  
 }
 oddsToTwenty();
 
 
 
 function multiplesOfFive() {
-  let meuarray = []
-  let Mult5 =[]
+  let meuArray = []
+  let mult5 =[]
 
    for (contador = 1; contador < 101; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 5 == 0){
-     Mult5.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 5 == 0){
+     mult5.push(contador)
    }
   }
-  console.log(Mult5)  
+  console.log(mult5)  
 }
 multiplesOfFive();  
 
  
 function squareNumbers() {
     
-  let QuadradosPerfeitos =[]
+  let quadradosPerfeitos =[]
 
    for (contador = 1; contador < 11; contador++) {
-      QuadradosPerfeitos.push(contador ** 2)
+      quadradosPerfeitos.push(contador ** 2)
      }
- console.log(QuadradosPerfeitos)  
+ console.log(quadradosPerfeitos)  
 }
 squareNumbers();
 
 
 function countingBackwards() {
     
-    let meuarray = []
+    let meuArray = []
     
      for (contador = 1; contador < 21; contador++) {
-       meuarray.push(contador)
+       meuArray.push(contador)
      }
-    meuarray.reverse ();
-    console.log(meuarray)
+    meuArray.reverse ();
+    console.log(meuArray)
     }
 countingBackwards();
 
 
 function evenNumbersBackwards() {
-  let meuarray = []
-  let numpares =[]
+  let meuArray = []
+  let numPares =[]
 
    for (contador = 1; contador < 21; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 2 == 0){
-     numpares.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 2 == 0){
+     numPares.push(contador)
    }
   }
-  numpares.reverse();
-  console.log(numpares)
+  numPares.reverse();
+  console.log(numPares)
 }
 evenNumbersBackwards();
 
@@ -104,46 +104,46 @@ evenNumbersBackwards();
 
 function oddNumbersBackwards() {
     
-  let meuarray = []
-  let numimpares =[]
+  let meuArray = []
+  let numImpares =[]
 
    for (contador = 1; contador < 21; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 2 == 1){
-     numimpares.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 2 == 1){
+     numImpares.push(contador)
    }
   }
-  numimpares.reverse();
-  console.log(numimpares) 
+  numImpares.reverse();
+  console.log(numImpares) 
 }
 oddNumbersBackwards();
 
 
 function multiplesOfFiveBackwards() {
     
-  let meuarray = []
-  let Mult5 =[]
+  let meuArray = []
+  let mult5 =[]
 
    for (contador = 1; contador < 101; contador++) {
-     meuarray[contador]= contador
-     if (meuarray[contador] % 5 == 0){
-     Mult5.push(contador)
+     meuArray[contador]= contador
+     if (meuArray[contador] % 5 == 0){
+     mult5.push(contador)
    }
   }
-  Mult5.reverse();
-  console.log(Mult5)
+  mult5.reverse();
+  console.log(mult5)
 }
 multiplesOfFiveBackwards();
 
 
 function squareNumbersBackwards() {
 
-  let QuadradosPerfeitos =[]
+  let quadradosPerfeitos =[]
 
    for (contador = 1; contador < 11; contador++) {
-      QuadradosPerfeitos.push(contador ** 2)
+      quadradosPerfeitos.push(contador ** 2)
      }
-  QuadradosPerfeitos.reverse()
- console.log(QuadradosPerfeitos)  
+  quadradosPerfeitos.reverse()
+ console.log(quadradosPerfeitos)  
 }
 squareNumbersBackwards();
